@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "amd",
+    "declaration": true,
+    "stripInternal": true,
+    "types": [
+      "react-dom",
+      "react",
+      "react-intl",
+      "node",
+      "classnames",
+      "invariant"
+    ],
+    "pretty": true,
+    "listEmittedFiles": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["./lib", "./**/*.test.ts*", "./packages/**/dist/**"]
+}

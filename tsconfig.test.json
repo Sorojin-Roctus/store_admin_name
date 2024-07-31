@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["dom", "es2015", "es2016", "es2017", "esnext"],
+    "downlevelIteration": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["lib", "node_modules", "packages/**/dist/**"],
+  "include": ["packages", "typings"]
+}

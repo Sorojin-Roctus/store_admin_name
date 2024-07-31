@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.types.json",
+  "compilerOptions": {
+    "outFile": "./packages/react-intl-namespaces/dist/types.js"
+  },
+
+  "include": [
+    "./packages/react-intl-namespaces/index.ts",
+    "./packages/react-intl-namespaces/contracts.ts",
+    "./typings/**.d.ts",
+    "./packages/dummy.ts"
+  ],
+  "exclude": [
+    "./packages/react-intl-namespaces-locize-client/**",
+    "./packages/react-intl-namespaces-locize-editor/**",
+    "./packages/**/dist/**"
+  ]
+}

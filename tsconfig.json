@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": ["dom", "es2015", "es2016", "es2017", "esnext.asynciterable"],
+    "module": "es2015",
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "listEmittedFiles": true,
+    "listFiles": false,
+    "removeComments": false,
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "pretty": true,
+    "esModuleInterop": true,
+    "plugins": [
+      {
+        "name": "typescript-snapshots-plugin"
+      },
+      {
+        "name": "typescript-lit-html-plugin"
+      }
+    ]
+  },
+  "include": ["packages/**/*.ts", "packages/**/*.tsx", "typings/*.d.ts"],
+  "exclude": [
+    "lib",
+    "node_modules",
+    "packages/react-intl-namespaces/dist/index.d.ts",
+    "packages/react-intl-namespaces/dist/types.d.ts",
+    "packages/react-intl-namespaces-locize-client/dist/index.d.ts",
+    "packages/react-intl-namespaces-locize-client/dist/types.d.ts",
+    "packages/react-intl-namespaces-locize-editor/dist/index.d.ts",
+    "packages/react-intl-namespaces-locize-editor/dist/types.d.ts"
+  ]
+}
