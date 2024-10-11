@@ -10,6 +10,7 @@
     "start": "webpack-dev-server --config webpack.dev.js",
     "build": "tslint --project tsconfig.json && jest --ci --runInBand && rollup -c rollup.lib.js"
   },
+  
   "devDependencies": {
     "@babel/polyfill": "^7.0.0-beta.40",
     "@types/classnames": "^2.2.3",
