@@ -3,7 +3,6 @@ import * as ReactDom from 'react-dom';
 import { addLocaleData, FormattedRelative } from 'react-intl';
 import * as pl from 'react-intl/locale-data/pl';
 import { Component1 } from './Component1';
-
 import {
   defineMessages,
   FormattedMessage,
